@@ -1,0 +1,211 @@
+0 
+23
++libext+.tsbvlibp
++v2k
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -fPIC -O -I/apps/synopsys/VCSMX_NEW/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=-m32 -m32
+-Mobjects= /apps/synopsys/VCSMX_NEW/linux/lib/libvirsim.so /apps/synopsys/VCSMX_NEW/linux/lib/librterrorinf.so /apps/synopsys/VCSMX_NEW/linux/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/apps/synopsys/VCSMX_NEW/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/apps/synopsys/VCSMX_NEW/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-gen_obj
+-picarchive
+-y
+/apps/synopsys/VCSMX_NEW/linux/bin/vcs1
+/export/apps/toshiba/sjsu/verilog/tc240c
+proccessor_gate.v
+tb_processor.v
+116
+sysc_uni_pwd=/home/ja/jain0423/Project
+cdk_dir=/apps/cadence/IC50/tools/dfII/local
+XSCH_PARAM_NAME=/usr/lib64/alliance/etc/xsch.par
+XPAT_PARAM_NAME=/usr/lib64/alliance/etc/xpat.par
+XFSM_PARAM_NAME=/usr/lib64/alliance/etc/xfsm.par
+XDM_MANAGED=method=classic
+XDG_SESSION_ID=395
+XDG_RUNTIME_DIR=/run/user/79918
+XDG_MENU_PREFIX=kde4-
+XDG_DATA_DIRS=/usr/share/kde-settings/kde-profile/default/share:/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=KDE
+XCURSOR_THEME=Adwaita
+XAUTHORITY=/tmp/kde-jain0423/xauth-79918-_1
+VMR_MODE_FLAG=32
+VH_PATSFX=pat
+VH_MAXERR=10
+VH_DLYSFX=dly
+VH_BEHSFX=vbe
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/apps/synopsys/VCSMX_NEW
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+VCSMX_HOME=/apps/synopsys/VCSMX_NEW
+USE_NCSU_CDK=
+UNAME=/bin/uname
+TPD_LOCAL=/home/ja/jain0423
+TPD_GLOBAL=/usr/share/toped/
+TOOL_HOME=/apps/synopsys/VCSMX_NEW/linux
+TK_LIBRARY=/apps/synopsys/VCSMX_NEW/etc/auxx/tcllib/tk8.4/library
+SYNOPSYS_SIM=/apps/synopsys/2000.12
+SYNOPSYS=/apps/synopsys
+STROOT=/apps/synopsys/TCAD
+STRELEASE=current
+STDB=/home/ja/jain0423/sentaurus
+SSH_AUTH_SOCK=/tmp/ssh-9wTqJDQin7PK/agent.28160
+SSH_ASKPASS=/usr/bin/ksshaskpass
+SSH_AGENT_PID=28205
+SNPSLMS_LICENSE_FILE=27000@innersanctum.engr.sjsu.edu:/apps/synopsys/license/current-license-key
+SKIP_CDS_DIALOG=
+SHELL_SESSION_ID=3cacd68edd6f40009d22405641b3508a
+SFLM_SERVER=innersanctum
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/28290,unix/unix:/tmp/.ICE-unix/28290
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RDS_TECHNO_NAME=/usr/lib64/alliance/etc/cmos.rds
+RDS_OUT=cif
+RDS_IN=cif
+QT_PLUGIN_PATH=/home/ja/jain0423/.kde/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PROFILEHOME=
+PRIMETIME_ROOT=/apps/synopsys/pt2000.11
+OVA_UUM=0
+OSTYPE=linux
+MBK_WORK_LIB=.
+MBK_VSS=vss
+MBK_VDD=vdd
+MBK_TARGET_LIB=/usr/lib64/alliance/cells/sxlib
+MBK_SPI_MODEL=/usr/lib64/alliance/etc/spimodel.cfg
+MBK_SCALE_X=100
+MBK_OUT_PH=ap
+MBK_OUT_LO=vst
+MBK_IN_PH=ap
+MBK_IN_LO=vst
+MBK_CATA_LIB=.:/usr/lib64/alliance/cells/sxlib:/usr/lib64/alliance/cells/dp_sxlib:/usr/lib64/alliance/cells/rflib:/usr/lib64/alliance/cells/rf2lib:/usr/lib64/alliance/cells/romlib:/usr/lib64/alliance/cells/ramlib:/usr/lib64/alliance/cells/pxlib:/usr/lib64/alliance/cells/padlib
+MBK_CATAL_NAME=CATAL
+MBK_C4_LIB=./cellsC4
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KONSOLE_PROFILE_NAME=Shell
+KONSOLE_DBUS_WINDOW=/Windows/1
+KONSOLE_DBUS_SESSION=/Sessions/1
+KONSOLE_DBUS_SERVICE=:1.57
+KDE_SESSION_VERSION=4
+KDE_SESSION_UID=79918
+KDE_MULTIHEAD=false
+KDE_FULL_SESSION=true
+KDEDIRS=/usr
+IUS=/apps/cadence/INCISIV141
+ISEROOT=/apps/synopsys/TCAD/
+IC=/apps/cadence/IC50
+HSP_HOME=/apps/synopsys/HSPICE/hspice
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/ja/jain0423/.gtkrc:/home/ja/jain0423/.kde/share/config/gtkrc
+GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/ja/jain0423/.gtkrc-2.0:/home/ja/jain0423/.gtkrc-2.0-kde4:/home/ja/jain0423/.kde/share/config/gtkrc-2.0
+GS_LIB=
+GROUP=Users
+GRAAL_TECHNO_NAME=/usr/lib64/alliance/etc/cmos.graal
+GPG_AGENT_INFO=/home/ja/jain0423/.gnupg/S.gpg-agent:28233:1
+GNOME_KEYRING_PID=28158
+GNOME_KEYRING_CONTROL=/run/user/79918/keyring-SrVvtf
+GENVIEW_TECHNO_NAME=/usr/lib64/alliance/etc/cmos.genview
+ELP_TECHNO_NAME=/usr/lib64/alliance/etc/prol.elp
+DREAL_TECHNO_NAME=/usr/lib64/alliance/etc/cmos.dreal
+DM_CONTROL=/var/run/xdmctl
+DESKTOP_SESSION=default
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-BnvnbpZzET,guid=1b81933d4619263ea961692154861d14
+CVS_RSH=ssh
+COLORFGBG=15;0
+CLS_CSD_COMPATIBILITY_LOCKING=NO
+CLS_CDSD_COMPATIBILITY_LOCKING=NO
+CDS_VHDL=/apps/cadence/INCISIV141/tools/leapfrog
+CDS_SITE=/apps/cadence/IC50/tools/dfII/local
+CDS_Netlisting_Mode=Analog
+CDS_LIC_FILE=5280@innersanctum.engr.sjsu.edu:/apps/cadence/license-current
+CDSLMD_LICENSE_FILE=5280@innersanctum.engr.sjsu.edu:/apps/cadence/license-current
+CDS=/apps/cadence
+CCACHE_HASHDIR=
+ARCH=linux
+ALLIANCE_TOP=/usr/lib64/alliance
+0
+61
+1008898043 /export/apps/toshiba/sjsu/verilog/tc240c/TFDPNOprim.tsbvlibp
+1008898043 /export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QXL.tsbvlibp
+1008898043 /export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX2.tsbvlibp
+1008898043 /export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX1.tsbvlibp
+1008898046 /export/apps/toshiba/sjsu/verilog/tc240c/CTSXL.tsbvlibp
+1008898046 /export/apps/toshiba/sjsu/verilog/tc240c/CTSX2.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COR3X2.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COR2X1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COND3XL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COND3X1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COND2XL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COND2X2.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COND2X1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COND1XL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COND11X1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/COAN1XL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CNR3XL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CNR2XL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CNR2X2.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CNR2X1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CNR2IXL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CNR2IX2.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CNR2IX1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CNIVXL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CNIVX1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CND8X1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CND4XL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CND3XL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CND2XL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CND2X2.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CND2X1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CND2IX1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CIVXL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CIVX2.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CIVX1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CHA1X1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CFD1QXL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CFD1QX2.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CFD1QX1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CEOXL.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CEOX2.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CEOX1.tsbvlibp
+1008898045 /export/apps/toshiba/sjsu/verilog/tc240c/CENXL.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CENX2.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CENX1.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CAOR2XL.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CAOR2X1.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CAOR1X1.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CANR4CXL.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CANR4CX1.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CANR2XL.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CANR2X2.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CANR2X1.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CANR1XL.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CANR11XL.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CANR11X2.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CAN6XL.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CAN6X1.tsbvlibp
+1008898044 /export/apps/toshiba/sjsu/verilog/tc240c/CAN2X1.tsbvlibp
+1418068736 proccessor_gate.v
+1418071681 tb_processor.v
+4
+0 
+1410372690 /apps/synopsys/VCSMX_NEW/linux/lib/libvirsim.so
+1410372633 /apps/synopsys/VCSMX_NEW/linux/lib/librterrorinf.so
+1410372654 /apps/synopsys/VCSMX_NEW/linux/lib/libsnpsmalloc.so
+1418075766 simv.daidir

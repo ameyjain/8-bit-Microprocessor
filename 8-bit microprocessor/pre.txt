@@ -1,0 +1,9 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Dec  8 11:31 2014
+$finish called from file "tb_processor.v", line 99.
+$finish at simulation time              8000000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 8000000 ps
+CPU Time:      0.240 seconds;       Data structure size:   0.0Mb
+Mon Dec  8 11:31:40 2014

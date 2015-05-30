@@ -1,0 +1,347 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Fedora release 20 (Heisenbug)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '3.16.6-203.fc20.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Mon Dec  8 12:08:22 2014
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'tb_processor.v'
+
+Error-[SFCOR] Source file cannot be opened
+  Source file "processor_gate.v" cannot be opened for reading due to 'No such 
+  file or directory'.
+  Please fix above issue and compile again.
+  
+  
+
+1 error
+CPU time: .063 seconds to compile
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Fedora release 20 (Heisenbug)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '3.16.6-203.fc20.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Mon Dec  8 12:11:26 2014
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'tb_processor.v'
+
+Error-[SFCOR] Source file cannot be opened
+  Source file "processor_gate.v" cannot be opened for reading due to 'No such 
+  file or directory'.
+  Please fix above issue and compile again.
+  
+  
+
+1 error
+CPU time: .065 seconds to compile
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Fedora release 20 (Heisenbug)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '3.16.6-203.fc20.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Mon Dec  8 12:12:28 2014
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'tb_processor.v'
+Parsing design file 'proccessor_gate.v'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAN2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAN6X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAN6XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR11X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR11XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR1XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR4CX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR4CXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAOR1X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAOR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAOR2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CENX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CENX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CENXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CEOX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CEOX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CEOXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CFD1QX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CFD1QX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CFD1QXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CHA1X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CIVX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CIVX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CIVXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2IX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND3XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND4XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND8X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNIVX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNIVXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2IX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2IX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2IXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR3XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COAN1XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND11X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND1XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND3X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND3XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COR3X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CTSX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CTSXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/TFDPNOprim.tsbvlibp'
+Top Level Modules:
+       tb_processor
+       proccessor
+TimeScale is 1 ns / 1 ps
+
+Error-[URMI] Unresolved modules
+tb_processor.v, 44
+"proccessor_gate uut( .clk (clk),  .rst (rst),  .addr (addr),  .dat (dat),  .wrt (wrt),  .rd (rd));"
+  Module definition of above instance is not found in the design.
+
+1 error
+CPU time: .163 seconds to compile
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Fedora release 20 (Heisenbug)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '3.16.6-203.fc20.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Mon Dec  8 12:12:51 2014
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'tb_processor.v'
+Parsing design file 'proccessor_gate.v'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAN2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAN6X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAN6XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR11X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR11XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR1XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR4CX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR4CXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAOR1X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAOR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAOR2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CENX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CENX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CENXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CEOX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CEOX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CEOXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CFD1QX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CFD1QX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CFD1QXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CHA1X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CIVX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CIVX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CIVXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2IX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND3XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND4XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND8X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNIVX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNIVXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2IX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2IX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2IXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR3XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COAN1XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND11X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND1XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND3X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND3XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COR3X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CTSX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CTSXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/TFDPNOprim.tsbvlibp'
+Top Level Modules:
+       tb_processor
+       proccessor
+TimeScale is 1 ns / 1 ps
+
+Error-[URMI] Unresolved modules
+tb_processor.v, 44
+"proccessor_gate uut( .clk (clk),  .rst (rst),  .addr (addr),  .dat (dat),  .wrt (wrt),  .rd (rd));"
+  Module definition of above instance is not found in the design.
+
+1 error
+CPU time: .176 seconds to compile
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Fedora release 20 (Heisenbug)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '3.16.6-203.fc20.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Mon Dec  8 13:51:42 2014
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'tb_processor.v'
+Parsing design file 'proccessor_gate.v'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAN2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAN6X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAN6XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR11X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR11XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR1XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR4CX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CANR4CXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAOR1X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAOR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CAOR2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CENX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CENX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CENXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CEOX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CEOX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CEOXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CFD1QX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CFD1QX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CFD1QXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CHA1X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CIVX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CIVX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CIVXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2IX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND3XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND4XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CND8X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNIVX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNIVXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2IX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2IX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2IXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CNR3XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COAN1XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND11X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND1XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND2X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND2XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND3X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COND3XL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COR2X1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/COR3X2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CTSX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/CTSXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX1.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX2.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QXL.tsbvlibp'
+Parsing library directory file '/export/apps/toshiba/sjsu/verilog/tc240c/TFDPNOprim.tsbvlibp'
+Top Level Modules:
+       tb_processor
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+23 modules and 1 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so SIM_l.o 5NrI_d.o 5NrIB_d.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /apps/synopsys/VCSMX_NEW/linux/lib/libzerosoft_rt_stubs.so /apps/synopsys/VCSMX_NEW/linux/lib/libvirsim.so /apps/synopsys/VCSMX_NEW/linux/lib/librterrorinf.so /apps/synopsys/VCSMX_NEW/linux/lib/libsnpsmalloc.so    /apps/synopsys/VCSMX_NEW/linux/lib/libvcsnew.so /apps/synopsys/VCSMX_NEW/linux/lib/libuclinative.so   -Wl,-whole-archive /apps/synopsys/VCSMX_NEW/linux/lib/libvcsucli.so -Wl,-no-whole-archive          /apps/synopsys/VCSMX_NEW/linux/lib/vcs_save_restore_new.o /apps/synopsys/VCSMX_NEW/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .315 seconds to compile + .027 seconds to elab + .162 seconds to link

@@ -1,0 +1,1804 @@
+Warning: DC is only available in Tcl and XG mode. The -tcl_mode and -xg_mode options are no longer required.
+
+                        DC Professional (TM)
+                           DC Expert (TM)
+                            DC Ultra (TM)
+                       FloorPlan Manager (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                        Library Compiler (TM)
+                      DesignWare Developer (TM)
+                          DFT Compiler (TM)
+                            BSD Compiler
+                         Power Compiler (TM)
+
+           Version C-2009.06-SP5 for linux -- Jan 15, 2010
+              Copyright (c) 1988-2009 by Synopsys, Inc.
+                         ALL RIGHTS RESERVED
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+The above trademark notice does not imply that you are licensed to use 
+all of the listed products. You are licensed to use only those products 
+for which you have lawfully obtained a valid license key.
+
+Initializing...
+#set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_BCCOM25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_BCCOM25
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25
+#set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_BCCOM25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_BCCOM25
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25
+set symbol_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.workview.sdb}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.workview.sdb
+set synthetic_library {dw_foundation.sldb standard.sldb}
+dw_foundation.sldb standard.sldb
+set_min_library /apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25 -min_version /apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_BCCOM25
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25'
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_BCCOM25'
+Warning: Function '=' leaked 1 allocations for 16 bytes. (EQN-21)
+1
+read_verilog  processor.v 
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/gtech.db'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/standard.sldb'
+  Loading link library 'tc240c'
+  Loading link library 'gtech'
+Loading verilog file '/home/ja/jain0423/Project/processor.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/dw_foundation.sldb'
+Warning: The following synthetic libraries should be added to 
+	the list of link libraries: 
+	'dw_foundation.sldb'. (UISN-26)
+Compiling source file /home/ja/jain0423/Project/processor.v
+Warning:  /home/ja/jain0423/Project/processor.v:705: the undeclared symbol 'C0' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ja/jain0423/Project/processor.v:706: the undeclared symbol 'C1' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ja/jain0423/Project/processor.v:707: the undeclared symbol 'C2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ja/jain0423/Project/processor.v:708: the undeclared symbol 'C3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ja/jain0423/Project/processor.v:709: the undeclared symbol 'C4' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ja/jain0423/Project/processor.v:710: the undeclared symbol 'C5' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/ja/jain0423/Project/processor.v:711: the undeclared symbol 'C6' assumed to have the default net type, which is 'wire'. (VER-936)
+
+Statistics for case statements in always block at line 298 in file
+	'/home/ja/jain0423/Project/processor.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           300            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 308 in file
+	'/home/ja/jain0423/Project/processor.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           310            |    auto/auto     |
+===============================================
+
+Inferred tri-state devices in process
+	in routine data_block line 320 in file
+		'/home/ja/jain0423/Project/processor.v'.
+===================================================
+|  Register Name  |       Type       | Width | MB |
+===================================================
+| address_bus_tri | Tri-State Buffer |   8   | N  |
+===================================================
+
+Inferred tri-state devices in process
+	in routine data_block line 321 in file
+		'/home/ja/jain0423/Project/processor.v'.
+====================================================
+|  Register Name   |       Type       | Width | MB |
+====================================================
+| address_bus_tri2 | Tri-State Buffer |   8   | N  |
+====================================================
+
+Inferred tri-state devices in process
+	in routine data_block line 325 in file
+		'/home/ja/jain0423/Project/processor.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| data_bus_tri3 | Tri-State Buffer |   8   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine data_block line 329 in file
+		'/home/ja/jain0423/Project/processor.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| data_bus_tri7 | Tri-State Buffer |   8   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine data_block line 323 in file
+		'/home/ja/jain0423/Project/processor.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| data_bus_tri  | Tri-State Buffer |   8   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine data_block line 327 in file
+		'/home/ja/jain0423/Project/processor.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| data_bus_tri5 | Tri-State Buffer |   8   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine data_block line 324 in file
+		'/home/ja/jain0423/Project/processor.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| data_bus_tri2 | Tri-State Buffer |   8   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine data_block line 328 in file
+		'/home/ja/jain0423/Project/processor.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| data_bus_tri6 | Tri-State Buffer |   8   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine data_block line 326 in file
+		'/home/ja/jain0423/Project/processor.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| data_bus_tri4 | Tri-State Buffer |   8   | N  |
+=================================================
+Warning:  /home/ja/jain0423/Project/processor.v:458: signed to unsigned assignment occurs. (VER-318)
+Warning:  /home/ja/jain0423/Project/processor.v:477: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Statistics for case statements in always block at line 422 in file
+	'/home/ja/jain0423/Project/processor.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           454            |    auto/auto     |
+|           477            |    auto/auto     |
+|           488            |    auto/auto     |
+|           605            |    auto/auto     |
+|           634            |    auto/auto     |
+|           656            |    auto/auto     |
+|           675            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine Controller line 413 in file
+		'/home/ja/jain0423/Project/processor.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  present_state_reg  | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine AR_reg line 739 in file
+		'/home/ja/jain0423/Project/processor.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    ar_2_bus_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine DR_reg line 765 in file
+		'/home/ja/jain0423/Project/processor.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    dr_2_bus_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine GR_reg line 792 in file
+		'/home/ja/jain0423/Project/processor.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    gr_2_bus_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|    gr_2_bus_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine IR_reg line 829 in file
+		'/home/ja/jain0423/Project/processor.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    ir_2_bus_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine PR_reg line 856 in file
+		'/home/ja/jain0423/Project/processor.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    pr_on_bus_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine FR_reg line 887 in file
+		'/home/ja/jain0423/Project/processor.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    flag_reg_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/ja/jain0423/Project/proccessor.db:proccessor'
+Loaded 11 designs.
+Current design is 'proccessor'.
+proccessor data_block Controller ALU full_adder AR_reg DR_reg GR_reg IR_reg PR_reg FR_reg
+current_design proccessor
+Current design is 'proccessor'.
+{proccessor}
+link
+
+  Linking design 'proccessor'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  tc240c (library)            /apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25
+
+1
+check_design
+Warning: In design 'Controller', output port 'crt_pr_on_add' is connected directly to output port 'crt_increment_pr'. (LINT-31)
+Warning: In design 'Controller', output port 'crt_pr_on_add' is connected directly to output port 'crt_data_on_ir'. (LINT-31)
+Warning: In design 'Controller', output port 'crt_ALU_cin' is connected directly to output port 'crt_ALU_sel'. (LINT-31)
+Warning: In design 'PR_reg', cell 'C77' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', port 'clk' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU', port 'rst' is not connected to any nets. (LINT-28)
+Information: Design 'proccessor' has multiply instantiated designs. Use the '-multiple_designs' switch for more information. (LINT-78)
+1
+create_clock clk -name clk -period 6.0000
+1
+set_propagated_clock clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_clock_uncertainty .25 clk
+1
+set_max_delay 2.9 -from [all_inputs]
+1
+set_max_delay 4.8 -to [all_outputs]
+1
+#set_max_delay 2 -to sum
+#set_load 160 sum
+set_max_area 500
+1
+compile -map_effort high
+Warning: The following synthetic libraries should be added to 
+	the list of link libraries: 
+	'dw_foundation.sldb'. (UISN-26)
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library       |      Version       | Available |
+============================================================================
+| Basic DW Building Blocks                | C-2009.06-DWBB_0912 |    *     |
+| Licensed DW Building Blocks             | C-2009.06-DWBB_0912 |    *     |
+============================================================================
+
+
+Information: There are 6 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: Operating condition WCCOM25 set on design proccessor has different process,
+voltage and temperatures parameters than the parameters at which target library 
+tc240c is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'Controller'
+  Processing 'FR_reg'
+  Processing 'full_adder_0'
+  Processing 'ALU'
+  Processing 'IR_reg'
+  Processing 'DR_reg'
+  Processing 'AR_reg'
+  Processing 'PR_reg'
+  Processing 'GR_reg'
+  Processing 'data_block'
+  Processing 'proccessor'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'PR_reg_DW01_inc_0'
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:05    1234.5      0.24       0.7       0.0                          
+    0:00:06     929.5      0.34       1.2       0.0                          
+    0:00:06     934.0      0.27       3.0       0.0                          
+    0:00:06     933.5      0.19       0.5       0.0                          
+    0:00:06     936.0      0.16       0.5       0.0                          
+    0:00:06     936.0      0.15       0.4       0.0                          
+    0:00:06     936.0      0.13       0.4       0.0                          
+    0:00:06     935.5      0.07       0.2       0.0                          
+    0:00:06     935.0      0.66       0.7       0.0                          
+    0:00:06     935.5      0.09       0.1       0.0                          
+    0:00:06     935.0      0.08       0.1       0.0                          
+    0:00:06     935.5      0.07       0.1       0.0                          
+    0:00:06     934.0      0.28       0.3       0.0                          
+    0:00:06     936.0      0.06       0.1       0.0                          
+    0:00:06     936.0      0.03       0.0       0.0                          
+    0:00:07     937.0      0.02       0.0       0.0                          
+    0:00:07     937.0      0.02       0.0       0.0                          
+    0:00:07     937.0      0.01       0.0       0.0                          
+    0:00:07     937.5      0.00       0.0       0.0                          
+    0:00:07     938.5      0.00       0.0       0.0                          
+    0:00:07     938.5      0.00       0.0       0.0                          
+    0:00:07     938.5      0.00       0.0       0.0                          
+    0:00:07     938.5      0.00       0.0       0.0                          
+    0:00:07     938.5      0.00       0.0       0.0                          
+    0:00:07     938.5      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07     938.5      0.00       0.0       0.0                          
+    0:00:08     939.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 500)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:08     939.0      0.00       0.0       0.0                          
+    0:00:08     939.0      0.00       0.0       0.0                          
+    0:00:08     931.5      0.02       0.0       0.0                          
+    0:00:08     931.5      0.02       0.0       0.0                          
+    0:00:08     931.5      0.02       0.0       0.0                          
+    0:00:08     931.5      0.02       0.0       0.0                          
+    0:00:08     931.5      0.01       0.0       0.0                          
+    0:00:08     918.0      0.02       0.0       0.0                          
+    0:00:08     916.5      0.05       0.1       0.0                          
+    0:00:08     916.5      0.05       0.1       0.0                          
+    0:00:08     916.5      0.05       0.1       0.0                          
+    0:00:08     916.5      0.05       0.1       0.0                          
+    0:00:08     916.5      0.05       0.1       0.0                          
+    0:00:08     916.5      0.05       0.1       0.0                          
+    0:00:08     909.5      0.00       0.0       0.0                          
+    0:00:08     908.0      0.00       0.0       0.0                          
+    0:00:08     908.0      0.00       0.0       0.0                          
+    0:00:08     908.0      0.00       0.0       0.0                          
+    0:00:08     908.0      0.00       0.0       0.0                          
+    0:00:08     908.0      0.00       0.0       0.0                          
+    0:00:08     908.0      0.00       0.0       0.0                          
+    0:00:08     908.0      0.00       0.0       0.0                          
+    0:00:08     907.5      0.00       0.0       0.0                          
+    0:00:09     907.0      0.00       0.0       0.0                          
+    0:00:09     904.0      0.02       0.0       0.0                          
+    0:00:09     903.5      0.02       0.0       0.0                          
+    0:00:09     903.5      0.02       0.0       0.0                          
+    0:00:09     903.5      0.02       0.0       0.0                          
+    0:00:09     903.5      0.02       0.0       0.0                          
+    0:00:09     898.5      0.02       0.0       0.0                          
+    0:00:09     897.5      0.02       0.0       0.0                          
+    0:00:09     897.5      0.02       0.0       0.0                          
+    0:00:09     897.5      0.02       0.0       0.0                          
+    0:00:09     897.5      0.02       0.0       0.0                          
+    0:00:09     897.5      0.02       0.0       0.0                          
+    0:00:09     897.5      0.02       0.0       0.0                          
+    0:00:09     899.5      0.00       0.0       0.0                          
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_BCCOM25'
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25'
+
+  Optimization Complete
+  ---------------------
+1
+report_cell
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : cell
+Design : proccessor
+Version: C-2009.06-SP5
+Date   : Mon Dec  8 12:40:50 2014
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+controller_instant        Controller                      126.000000
+                                                                    h, n
+data_block_instantiation  data_block                      773.500000
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 2 cells                                             899.500000
+1
+report_net
+ 
+****************************************
+Report : net
+Design : proccessor
+Version: C-2009.06-SP5
+Date   : Mon Dec  8 12:40:50 2014
+****************************************
+
+
+Operating Conditions: WCCOM25   Library: tc240c
+Wire Load Model Mode: top
+
+
+Net                 Fanout     Fanin      Load   Resistance    Pins   Attributes
+--------------------------------------------------------------------------------
+ALU_cin                 10         1    195.55         0.00      11   
+ALU_sel                 10         1    195.55         0.00      11   
+add_sel_a[0]             6         1     29.67         0.00       7   
+add_sel_a[1]             5         1     38.49         0.00       6   
+add_sel_b[0]             4         1     55.88         0.00       5   
+add_sel_b[1]             4         1     42.97         0.00       5   
+addr[0]                  1         2     25.06         0.00       3   
+addr[1]                  1         2     25.06         0.00       3   
+addr[2]                  1         2     25.06         0.00       3   
+addr[3]                  1         2     25.06         0.00       3   
+addr[4]                  1         2     25.06         0.00       3   
+addr[5]                  1         2     25.06         0.00       3   
+addr[6]                  1         2     25.06         0.00       3   
+addr[7]                  1         2     25.06         0.00       3   
+alu_2_data               9         1    135.50         0.00      10   
+ar_on_add                8         1    131.77         0.00       9   
+ar_on_data               8         1    124.94         0.00       9   
+ar_on_pr                10         1     81.88         0.00      11   
+clk                     46         1    163.11         0.00      47   
+dat[0]                   7         8    127.17         0.00      14   
+dat[1]                   7         8    135.64         0.00      14   
+dat[2]                   7         8    135.64         0.00      14   
+dat[3]                   7         8    130.13         0.00      14   
+dat[4]                   6         8    116.35         0.00      13   
+dat[5]                   6         8    119.58         0.00      13   
+dat[6]                   6         8    116.35         0.00      13   
+dat[7]                   6         8     62.44         0.00      13   
+data_on_ar               1         1      7.91         0.00       2   
+data_on_dr               9         1     68.33         0.00      10   
+data_on_ir              18         1    198.68         0.00      19   
+dr_on_data               8         1    124.94         0.00       9   
+gr_on_data               8         1    124.94         0.00       9   
+increment_pr            18         1    198.68         0.00      19   
+ir_on_data               8         1    104.47         0.00       9   
+load_FR_On_data          9         1    141.94         0.00      10   
+lsb_on_gr                3         1     34.57         0.00       4   
+machine_code[0]          7         1     56.27         0.00       8   
+machine_code[1]          7         1     48.19         0.00       8   
+machine_code[2]          7         1     60.57         0.00       8   
+machine_code[3]          6         1     50.50         0.00       7   
+machine_code[4]          7         1     60.33         0.00       8   
+machine_code[5]          8         1     65.21         0.00       9   
+machine_code[6]          8         1     69.84         0.00       9   
+machine_code[7]          9         1     64.24         0.00      10   
+msb_on_gr                1         1      7.91         0.00       2   
+pr_on_add               18         1    198.68         0.00      19   
+pr_on_data               8         1    124.94         0.00       9   
+rd                       1         1      0.00         0.00       2   
+rst                     13         1    100.17         0.00      14   
+wrt                      3         1     20.99         0.00       4   
+--------------------------------------------------------------------------------
+Total 50 nets          365       114   4271.36         0.00     471
+Maximum                 46         8    198.68         0.00      47
+Average               7.30      2.28     85.43         0.00    9.42
+1
+update_timing
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+1
+report_timing -max_paths 10
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : proccessor
+Version: C-2009.06-SP5
+Date   : Mon Dec  8 12:40:50 2014
+****************************************
+
+Operating Conditions: WCCOM25   Library: tc240c
+Wire Load Model Mode: top
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: data_block_instantiation/Flag_register/flag_reg_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (propagated)                        0.00       0.00
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.47       0.47 r
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.47 r
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.47 r
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.47 r
+  controller_instant/U61/Z (CND2X2)                       0.13       0.60 f
+  controller_instant/U63/Z (CIVX2)                        0.07       0.67 r
+  controller_instant/U62/Z (CND2X2)                       0.09       0.76 f
+  controller_instant/U74/Z (CIVX2)                        0.07       0.83 r
+  controller_instant/U50/Z (CANR11X2)                     0.13       0.96 f
+  controller_instant/U19/Z (CNR2X2)                       0.12       1.08 r
+  controller_instant/U6/Z (CIVX2)                         0.14       1.22 f
+  controller_instant/U18/Z (CNR2IX2)                      0.20       1.42 r
+  controller_instant/crt_add_sel_b[0] (Controller)        0.00       1.42 r
+  data_block_instantiation/add_sel_b[0] (data_block)      0.00       1.42 r
+  data_block_instantiation/U28/Z (CNR2X2)                 0.14       1.56 f
+  data_block_instantiation/U10/Z (CNIVXL)                 0.21       1.76 f
+  data_block_instantiation/U65/Z (CANR2XL)                0.31       2.07 r
+  data_block_instantiation/U22/Z (CND2X1)                 0.19       2.26 f
+  data_block_instantiation/new_alu/b1[2] (ALU)            0.00       2.26 f
+  data_block_instantiation/new_alu/f3/inp2 (full_adder_6)
+                                                          0.00       2.26 f
+  data_block_instantiation/new_alu/f3/U4/Z (CENX1)        0.26       2.52 r
+  data_block_instantiation/new_alu/f3/U3/Z (CEOX1)        0.43       2.95 r
+  data_block_instantiation/new_alu/f3/U2/Z (COND2X2)      0.22       3.17 f
+  data_block_instantiation/new_alu/f3/cout (full_adder_6)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/cin (full_adder_5)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/U5/Z (CIVX2)        0.08       3.25 r
+  data_block_instantiation/new_alu/f4/U2/Z (COND2X2)      0.13       3.38 f
+  data_block_instantiation/new_alu/f4/cout (full_adder_5)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/cin (full_adder_4)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/U5/Z (CIVX2)        0.08       3.46 r
+  data_block_instantiation/new_alu/f5/U2/Z (COND2X2)      0.15       3.62 f
+  data_block_instantiation/new_alu/f5/cout (full_adder_4)
+                                                          0.00       3.62 f
+  data_block_instantiation/new_alu/f6/cin (full_adder_3)
+                                                          0.00       3.62 f
+  data_block_instantiation/new_alu/f6/U6/Z (CIVX2)        0.07       3.69 r
+  data_block_instantiation/new_alu/f6/U2/Z (COND2X2)      0.15       3.84 f
+  data_block_instantiation/new_alu/f6/cout (full_adder_3)
+                                                          0.00       3.84 f
+  data_block_instantiation/new_alu/f7/cin (full_adder_2)
+                                                          0.00       3.84 f
+  data_block_instantiation/new_alu/f7/U1/Z (CAOR2X1)      0.35       4.19 f
+  data_block_instantiation/new_alu/f7/cout (full_adder_2)
+                                                          0.00       4.19 f
+  data_block_instantiation/new_alu/f8/cin (full_adder_1)
+                                                          0.00       4.19 f
+  data_block_instantiation/new_alu/f8/U5/Z (CND2XL)       0.20       4.39 r
+  data_block_instantiation/new_alu/f8/U1/Z (CND2X2)       0.16       4.54 f
+  data_block_instantiation/new_alu/f8/sum (full_adder_1)
+                                                          0.00       4.54 f
+  data_block_instantiation/new_alu/alu_out[7] (ALU)       0.00       4.54 f
+  data_block_instantiation/Flag_register/alu_output[7] (FR_reg)
+                                                          0.00       4.54 f
+  data_block_instantiation/Flag_register/U3/Z (CENX1)     0.20       4.74 f
+  data_block_instantiation/Flag_register/U17/Z (CAN2X1)
+                                                          0.17       4.92 f
+  data_block_instantiation/Flag_register/U8/Z (CAOR1X1)
+                                                          0.30       5.22 f
+  data_block_instantiation/Flag_register/flag_reg_reg[0]/D (CFD1QXL)
+                                                          0.00       5.22 f
+  data arrival time                                                  5.22
+
+  clock clk (rise edge)                                   6.00       6.00
+  clock network delay (propagated)                        0.00       6.00
+  clock uncertainty                                      -0.25       5.75
+  data_block_instantiation/Flag_register/flag_reg_reg[0]/CP (CFD1QXL)
+                                                          0.00       5.75 r
+  library setup time                                     -0.46       5.29
+  data required time                                                 5.29
+  --------------------------------------------------------------------------
+  data required time                                                 5.29
+  data arrival time                                                 -5.22
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: data_block_instantiation/Flag_register/flag_reg_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (propagated)                        0.00       0.00
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.47       0.47 r
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.47 r
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.47 r
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.47 r
+  controller_instant/U61/Z (CND2X2)                       0.13       0.60 f
+  controller_instant/U63/Z (CIVX2)                        0.07       0.67 r
+  controller_instant/U62/Z (CND2X2)                       0.09       0.76 f
+  controller_instant/U74/Z (CIVX2)                        0.07       0.83 r
+  controller_instant/U50/Z (CANR11X2)                     0.13       0.96 f
+  controller_instant/U19/Z (CNR2X2)                       0.12       1.08 r
+  controller_instant/U6/Z (CIVX2)                         0.14       1.22 f
+  controller_instant/U18/Z (CNR2IX2)                      0.20       1.42 r
+  controller_instant/crt_add_sel_b[0] (Controller)        0.00       1.42 r
+  data_block_instantiation/add_sel_b[0] (data_block)      0.00       1.42 r
+  data_block_instantiation/U28/Z (CNR2X2)                 0.14       1.56 f
+  data_block_instantiation/U10/Z (CNIVXL)                 0.21       1.76 f
+  data_block_instantiation/U65/Z (CANR2XL)                0.31       2.07 r
+  data_block_instantiation/U22/Z (CND2X1)                 0.19       2.26 f
+  data_block_instantiation/new_alu/b1[2] (ALU)            0.00       2.26 f
+  data_block_instantiation/new_alu/f3/inp2 (full_adder_6)
+                                                          0.00       2.26 f
+  data_block_instantiation/new_alu/f3/U4/Z (CENX1)        0.26       2.52 r
+  data_block_instantiation/new_alu/f3/U3/Z (CEOX1)        0.43       2.95 r
+  data_block_instantiation/new_alu/f3/U2/Z (COND2X2)      0.22       3.17 f
+  data_block_instantiation/new_alu/f3/cout (full_adder_6)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/cin (full_adder_5)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/U5/Z (CIVX2)        0.08       3.25 r
+  data_block_instantiation/new_alu/f4/U2/Z (COND2X2)      0.13       3.38 f
+  data_block_instantiation/new_alu/f4/cout (full_adder_5)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/cin (full_adder_4)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/U5/Z (CIVX2)        0.08       3.46 r
+  data_block_instantiation/new_alu/f5/U2/Z (COND2X2)      0.15       3.62 f
+  data_block_instantiation/new_alu/f5/cout (full_adder_4)
+                                                          0.00       3.62 f
+  data_block_instantiation/new_alu/f6/cin (full_adder_3)
+                                                          0.00       3.62 f
+  data_block_instantiation/new_alu/f6/U6/Z (CIVX2)        0.07       3.69 r
+  data_block_instantiation/new_alu/f6/U2/Z (COND2X2)      0.15       3.84 f
+  data_block_instantiation/new_alu/f6/cout (full_adder_3)
+                                                          0.00       3.84 f
+  data_block_instantiation/new_alu/f7/cin (full_adder_2)
+                                                          0.00       3.84 f
+  data_block_instantiation/new_alu/f7/U1/Z (CAOR2X1)      0.35       4.19 f
+  data_block_instantiation/new_alu/f7/cout (full_adder_2)
+                                                          0.00       4.19 f
+  data_block_instantiation/new_alu/f8/cin (full_adder_1)
+                                                          0.00       4.19 f
+  data_block_instantiation/new_alu/f8/U5/Z (CND2XL)       0.20       4.39 r
+  data_block_instantiation/new_alu/f8/U1/Z (CND2X2)       0.16       4.54 f
+  data_block_instantiation/new_alu/f8/sum (full_adder_1)
+                                                          0.00       4.54 f
+  data_block_instantiation/new_alu/alu_out[7] (ALU)       0.00       4.54 f
+  data_block_instantiation/Flag_register/alu_output[7] (FR_reg)
+                                                          0.00       4.54 f
+  data_block_instantiation/Flag_register/U3/Z (CENX1)     0.20       4.74 f
+  data_block_instantiation/Flag_register/U17/Z (CAN2X1)
+                                                          0.17       4.92 f
+  data_block_instantiation/Flag_register/U10/Z (CAOR1X1)
+                                                          0.30       5.22 f
+  data_block_instantiation/Flag_register/flag_reg_reg[2]/D (CFD1QXL)
+                                                          0.00       5.22 f
+  data arrival time                                                  5.22
+
+  clock clk (rise edge)                                   6.00       6.00
+  clock network delay (propagated)                        0.00       6.00
+  clock uncertainty                                      -0.25       5.75
+  data_block_instantiation/Flag_register/flag_reg_reg[2]/CP (CFD1QXL)
+                                                          0.00       5.75 r
+  library setup time                                     -0.46       5.29
+  data required time                                                 5.29
+  --------------------------------------------------------------------------
+  data required time                                                 5.29
+  data arrival time                                                 -5.22
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: data_block_instantiation/Flag_register/flag_reg_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (propagated)                        0.00       0.00
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.47       0.47 r
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.47 r
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.47 r
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.47 r
+  controller_instant/U61/Z (CND2X2)                       0.13       0.60 f
+  controller_instant/U63/Z (CIVX2)                        0.07       0.67 r
+  controller_instant/U62/Z (CND2X2)                       0.09       0.76 f
+  controller_instant/U74/Z (CIVX2)                        0.07       0.83 r
+  controller_instant/U50/Z (CANR11X2)                     0.13       0.96 f
+  controller_instant/U19/Z (CNR2X2)                       0.12       1.08 r
+  controller_instant/U6/Z (CIVX2)                         0.14       1.22 f
+  controller_instant/U18/Z (CNR2IX2)                      0.20       1.42 r
+  controller_instant/crt_add_sel_b[0] (Controller)        0.00       1.42 r
+  data_block_instantiation/add_sel_b[0] (data_block)      0.00       1.42 r
+  data_block_instantiation/U28/Z (CNR2X2)                 0.14       1.56 f
+  data_block_instantiation/U10/Z (CNIVXL)                 0.21       1.76 f
+  data_block_instantiation/U65/Z (CANR2XL)                0.31       2.07 r
+  data_block_instantiation/U22/Z (CND2X1)                 0.19       2.26 f
+  data_block_instantiation/new_alu/b1[2] (ALU)            0.00       2.26 f
+  data_block_instantiation/new_alu/f3/inp2 (full_adder_6)
+                                                          0.00       2.26 f
+  data_block_instantiation/new_alu/f3/U4/Z (CENX1)        0.26       2.52 r
+  data_block_instantiation/new_alu/f3/U3/Z (CEOX1)        0.43       2.95 r
+  data_block_instantiation/new_alu/f3/U2/Z (COND2X2)      0.22       3.17 f
+  data_block_instantiation/new_alu/f3/cout (full_adder_6)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/cin (full_adder_5)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/U5/Z (CIVX2)        0.08       3.25 r
+  data_block_instantiation/new_alu/f4/U2/Z (COND2X2)      0.13       3.38 f
+  data_block_instantiation/new_alu/f4/cout (full_adder_5)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/cin (full_adder_4)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/U5/Z (CIVX2)        0.08       3.46 r
+  data_block_instantiation/new_alu/f5/U2/Z (COND2X2)      0.15       3.62 f
+  data_block_instantiation/new_alu/f5/cout (full_adder_4)
+                                                          0.00       3.62 f
+  data_block_instantiation/new_alu/f6/cin (full_adder_3)
+                                                          0.00       3.62 f
+  data_block_instantiation/new_alu/f6/U6/Z (CIVX2)        0.07       3.69 r
+  data_block_instantiation/new_alu/f6/U2/Z (COND2X2)      0.15       3.84 f
+  data_block_instantiation/new_alu/f6/cout (full_adder_3)
+                                                          0.00       3.84 f
+  data_block_instantiation/new_alu/f7/cin (full_adder_2)
+                                                          0.00       3.84 f
+  data_block_instantiation/new_alu/f7/U1/Z (CAOR2X1)      0.35       4.19 f
+  data_block_instantiation/new_alu/f7/cout (full_adder_2)
+                                                          0.00       4.19 f
+  data_block_instantiation/new_alu/f8/cin (full_adder_1)
+                                                          0.00       4.19 f
+  data_block_instantiation/new_alu/f8/U5/Z (CND2XL)       0.20       4.39 r
+  data_block_instantiation/new_alu/f8/U1/Z (CND2X2)       0.16       4.54 f
+  data_block_instantiation/new_alu/f8/sum (full_adder_1)
+                                                          0.00       4.54 f
+  data_block_instantiation/new_alu/alu_out[7] (ALU)       0.00       4.54 f
+  data_block_instantiation/Flag_register/alu_output[7] (FR_reg)
+                                                          0.00       4.54 f
+  data_block_instantiation/Flag_register/U2/Z (CNR2XL)
+                                                          0.20       4.74 r
+  data_block_instantiation/Flag_register/U16/Z (CND8X1)
+                                                          0.49       5.23 f
+  data_block_instantiation/Flag_register/U15/Z (CND2IX1)
+                                                          0.06       5.30 r
+  data_block_instantiation/Flag_register/flag_reg_reg[3]/D (CFD1QXL)
+                                                          0.00       5.30 r
+  data arrival time                                                  5.30
+
+  clock clk (rise edge)                                   6.00       6.00
+  clock network delay (propagated)                        0.00       6.00
+  clock uncertainty                                      -0.25       5.75
+  data_block_instantiation/Flag_register/flag_reg_reg[3]/CP (CFD1QXL)
+                                                          0.00       5.75 r
+  library setup time                                     -0.38       5.37
+  data required time                                                 5.37
+  --------------------------------------------------------------------------
+  data required time                                                 5.37
+  data arrival time                                                 -5.30
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: rst (input port)
+  Endpoint: data_block_instantiation/Program_counter/pr_on_bus_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  rst (in)                                                0.00       0.00 f
+  data_block_instantiation/rst (data_block)               0.00       0.00 f
+  data_block_instantiation/Program_counter/rst (PR_reg)
+                                                          0.00       0.00 f
+  data_block_instantiation/Program_counter/U7/Z (CNR3XL)
+                                                          1.59       1.59 r
+  data_block_instantiation/Program_counter/U4/Z (CND2XL)
+                                                          0.47       2.06 f
+  data_block_instantiation/Program_counter/U26/Z (CND2X1)
+                                                          0.08       2.14 r
+  data_block_instantiation/Program_counter/pr_on_bus_reg[0]/D (CFD1QXL)
+                                                          0.00       2.14 r
+  data arrival time                                                  2.14
+
+  max_delay                                               2.90       2.90
+  clock uncertainty                                      -0.25       2.65
+  library setup time                                     -0.38       2.27
+  data required time                                                 2.27
+  --------------------------------------------------------------------------
+  data required time                                                 2.27
+  data arrival time                                                 -2.14
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.13
+
+
+  Startpoint: rst (input port)
+  Endpoint: data_block_instantiation/Program_counter/pr_on_bus_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  rst (in)                                                0.00       0.00 f
+  data_block_instantiation/rst (data_block)               0.00       0.00 f
+  data_block_instantiation/Program_counter/rst (PR_reg)
+                                                          0.00       0.00 f
+  data_block_instantiation/Program_counter/U7/Z (CNR3XL)
+                                                          1.59       1.59 r
+  data_block_instantiation/Program_counter/U25/Z (CND2X1)
+                                                          0.35       1.94 f
+  data_block_instantiation/Program_counter/U23/Z (CND2X1)
+                                                          0.08       2.01 r
+  data_block_instantiation/Program_counter/pr_on_bus_reg[1]/D (CFD1QXL)
+                                                          0.00       2.01 r
+  data arrival time                                                  2.01
+
+  max_delay                                               2.90       2.90
+  clock uncertainty                                      -0.25       2.65
+  library setup time                                     -0.38       2.27
+  data required time                                                 2.27
+  --------------------------------------------------------------------------
+  data required time                                                 2.27
+  data arrival time                                                 -2.01
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.26
+
+
+  Startpoint: rst (input port)
+  Endpoint: data_block_instantiation/Program_counter/pr_on_bus_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  rst (in)                                                0.00       0.00 f
+  data_block_instantiation/rst (data_block)               0.00       0.00 f
+  data_block_instantiation/Program_counter/rst (PR_reg)
+                                                          0.00       0.00 f
+  data_block_instantiation/Program_counter/U7/Z (CNR3XL)
+                                                          1.59       1.59 r
+  data_block_instantiation/Program_counter/U22/Z (CND2X1)
+                                                          0.35       1.94 f
+  data_block_instantiation/Program_counter/U20/Z (CND2X1)
+                                                          0.08       2.01 r
+  data_block_instantiation/Program_counter/pr_on_bus_reg[2]/D (CFD1QXL)
+                                                          0.00       2.01 r
+  data arrival time                                                  2.01
+
+  max_delay                                               2.90       2.90
+  clock uncertainty                                      -0.25       2.65
+  library setup time                                     -0.38       2.27
+  data required time                                                 2.27
+  --------------------------------------------------------------------------
+  data required time                                                 2.27
+  data arrival time                                                 -2.01
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.26
+
+
+  Startpoint: rst (input port)
+  Endpoint: data_block_instantiation/Program_counter/pr_on_bus_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  rst (in)                                                0.00       0.00 f
+  data_block_instantiation/rst (data_block)               0.00       0.00 f
+  data_block_instantiation/Program_counter/rst (PR_reg)
+                                                          0.00       0.00 f
+  data_block_instantiation/Program_counter/U7/Z (CNR3XL)
+                                                          1.59       1.59 r
+  data_block_instantiation/Program_counter/U19/Z (CND2X1)
+                                                          0.35       1.94 f
+  data_block_instantiation/Program_counter/U17/Z (CND2X1)
+                                                          0.08       2.01 r
+  data_block_instantiation/Program_counter/pr_on_bus_reg[3]/D (CFD1QXL)
+                                                          0.00       2.01 r
+  data arrival time                                                  2.01
+
+  max_delay                                               2.90       2.90
+  clock uncertainty                                      -0.25       2.65
+  library setup time                                     -0.38       2.27
+  data required time                                                 2.27
+  --------------------------------------------------------------------------
+  data required time                                                 2.27
+  data arrival time                                                 -2.01
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.26
+
+
+  Startpoint: rst (input port)
+  Endpoint: data_block_instantiation/Program_counter/pr_on_bus_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  rst (in)                                                0.00       0.00 f
+  data_block_instantiation/rst (data_block)               0.00       0.00 f
+  data_block_instantiation/Program_counter/rst (PR_reg)
+                                                          0.00       0.00 f
+  data_block_instantiation/Program_counter/U7/Z (CNR3XL)
+                                                          1.59       1.59 r
+  data_block_instantiation/Program_counter/U16/Z (CND2X1)
+                                                          0.35       1.94 f
+  data_block_instantiation/Program_counter/U14/Z (CND2X1)
+                                                          0.08       2.01 r
+  data_block_instantiation/Program_counter/pr_on_bus_reg[4]/D (CFD1QXL)
+                                                          0.00       2.01 r
+  data arrival time                                                  2.01
+
+  max_delay                                               2.90       2.90
+  clock uncertainty                                      -0.25       2.65
+  library setup time                                     -0.38       2.27
+  data required time                                                 2.27
+  --------------------------------------------------------------------------
+  data required time                                                 2.27
+  data arrival time                                                 -2.01
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.26
+
+
+  Startpoint: rst (input port)
+  Endpoint: data_block_instantiation/Program_counter/pr_on_bus_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  rst (in)                                                0.00       0.00 f
+  data_block_instantiation/rst (data_block)               0.00       0.00 f
+  data_block_instantiation/Program_counter/rst (PR_reg)
+                                                          0.00       0.00 f
+  data_block_instantiation/Program_counter/U7/Z (CNR3XL)
+                                                          1.59       1.59 r
+  data_block_instantiation/Program_counter/U13/Z (CND2X1)
+                                                          0.35       1.94 f
+  data_block_instantiation/Program_counter/U11/Z (CND2X1)
+                                                          0.08       2.01 r
+  data_block_instantiation/Program_counter/pr_on_bus_reg[5]/D (CFD1QXL)
+                                                          0.00       2.01 r
+  data arrival time                                                  2.01
+
+  max_delay                                               2.90       2.90
+  clock uncertainty                                      -0.25       2.65
+  library setup time                                     -0.38       2.27
+  data required time                                                 2.27
+  --------------------------------------------------------------------------
+  data required time                                                 2.27
+  data arrival time                                                 -2.01
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.26
+
+
+  Startpoint: rst (input port)
+  Endpoint: data_block_instantiation/Program_counter/pr_on_bus_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  rst (in)                                                0.00       0.00 f
+  data_block_instantiation/rst (data_block)               0.00       0.00 f
+  data_block_instantiation/Program_counter/rst (PR_reg)
+                                                          0.00       0.00 f
+  data_block_instantiation/Program_counter/U7/Z (CNR3XL)
+                                                          1.59       1.59 r
+  data_block_instantiation/Program_counter/U8/Z (CND2X1)
+                                                          0.35       1.94 f
+  data_block_instantiation/Program_counter/U28/Z (CND2X1)
+                                                          0.08       2.01 r
+  data_block_instantiation/Program_counter/pr_on_bus_reg[6]/D (CFD1QXL)
+                                                          0.00       2.01 r
+  data arrival time                                                  2.01
+
+  max_delay                                               2.90       2.90
+  clock uncertainty                                      -0.25       2.65
+  library setup time                                     -0.38       2.27
+  data required time                                                 2.27
+  --------------------------------------------------------------------------
+  data required time                                                 2.27
+  data arrival time                                                 -2.01
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.26
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dat[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.47       0.47 r
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.47 r
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.47 r
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.47 r
+  controller_instant/U61/Z (CND2X2)                       0.13       0.60 f
+  controller_instant/U63/Z (CIVX2)                        0.07       0.67 r
+  controller_instant/U62/Z (CND2X2)                       0.09       0.76 f
+  controller_instant/U74/Z (CIVX2)                        0.07       0.83 r
+  controller_instant/U50/Z (CANR11X2)                     0.13       0.96 f
+  controller_instant/U19/Z (CNR2X2)                       0.12       1.08 r
+  controller_instant/U6/Z (CIVX2)                         0.14       1.22 f
+  controller_instant/U18/Z (CNR2IX2)                      0.20       1.42 r
+  controller_instant/crt_add_sel_b[0] (Controller)        0.00       1.42 r
+  data_block_instantiation/add_sel_b[0] (data_block)      0.00       1.42 r
+  data_block_instantiation/U28/Z (CNR2X2)                 0.14       1.56 f
+  data_block_instantiation/U10/Z (CNIVXL)                 0.21       1.76 f
+  data_block_instantiation/U65/Z (CANR2XL)                0.31       2.07 r
+  data_block_instantiation/U22/Z (CND2X1)                 0.19       2.26 f
+  data_block_instantiation/new_alu/b1[2] (ALU)            0.00       2.26 f
+  data_block_instantiation/new_alu/f3/inp2 (full_adder_6)
+                                                          0.00       2.26 f
+  data_block_instantiation/new_alu/f3/U4/Z (CENX1)        0.26       2.52 r
+  data_block_instantiation/new_alu/f3/U3/Z (CEOX1)        0.43       2.95 r
+  data_block_instantiation/new_alu/f3/U2/Z (COND2X2)      0.22       3.17 f
+  data_block_instantiation/new_alu/f3/cout (full_adder_6)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/cin (full_adder_5)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/U5/Z (CIVX2)        0.08       3.25 r
+  data_block_instantiation/new_alu/f4/U2/Z (COND2X2)      0.13       3.38 f
+  data_block_instantiation/new_alu/f4/cout (full_adder_5)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/cin (full_adder_4)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/U5/Z (CIVX2)        0.08       3.46 r
+  data_block_instantiation/new_alu/f5/U2/Z (COND2X2)      0.15       3.62 f
+  data_block_instantiation/new_alu/f5/cout (full_adder_4)
+                                                          0.00       3.62 f
+  data_block_instantiation/new_alu/f6/cin (full_adder_3)
+                                                          0.00       3.62 f
+  data_block_instantiation/new_alu/f6/U6/Z (CIVX2)        0.07       3.69 r
+  data_block_instantiation/new_alu/f6/U2/Z (COND2X2)      0.15       3.84 f
+  data_block_instantiation/new_alu/f6/cout (full_adder_3)
+                                                          0.00       3.84 f
+  data_block_instantiation/new_alu/f7/cin (full_adder_2)
+                                                          0.00       3.84 f
+  data_block_instantiation/new_alu/f7/U1/Z (CAOR2X1)      0.35       4.19 f
+  data_block_instantiation/new_alu/f7/cout (full_adder_2)
+                                                          0.00       4.19 f
+  data_block_instantiation/new_alu/f8/cin (full_adder_1)
+                                                          0.00       4.19 f
+  data_block_instantiation/new_alu/f8/U5/Z (CND2XL)       0.20       4.39 r
+  data_block_instantiation/new_alu/f8/U1/Z (CND2X2)       0.16       4.54 f
+  data_block_instantiation/new_alu/f8/sum (full_adder_1)
+                                                          0.00       4.54 f
+  data_block_instantiation/new_alu/alu_out[7] (ALU)       0.00       4.54 f
+  data_block_instantiation/data_bus_tri5[7]/Z (CTSX2)     0.25       4.80 f
+  data_block_instantiation/data_bus[7] (data_block)       0.00       4.80 f
+  dat[7] (inout)                                          0.00       4.80 f
+  data arrival time                                                  4.80
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -4.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dat[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.48       0.48 f
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.48 f
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.48 f
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.48 f
+  controller_instant/U61/Z (CND2X2)                       0.10       0.57 r
+  controller_instant/U63/Z (CIVX2)                        0.07       0.64 f
+  controller_instant/U62/Z (CND2X2)                       0.07       0.71 r
+  controller_instant/U74/Z (CIVX2)                        0.07       0.78 f
+  controller_instant/U50/Z (CANR11X2)                     0.27       1.05 r
+  controller_instant/U19/Z (CNR2X2)                       0.11       1.16 f
+  controller_instant/U6/Z (CIVX2)                         0.12       1.28 r
+  controller_instant/U18/Z (CNR2IX2)                      0.14       1.42 f
+  controller_instant/crt_add_sel_b[0] (Controller)        0.00       1.42 f
+  data_block_instantiation/add_sel_b[0] (data_block)      0.00       1.42 f
+  data_block_instantiation/U5/Z (CAN2X1)                  0.24       1.66 f
+  data_block_instantiation/U41/Z (CANR2X2)                0.20       1.85 r
+  data_block_instantiation/U49/Z (CND2X2)                 0.16       2.02 f
+  data_block_instantiation/new_alu/b1[0] (ALU)            0.00       2.02 f
+  data_block_instantiation/new_alu/f1/inp2 (full_adder_0)
+                                                          0.00       2.02 f
+  data_block_instantiation/new_alu/f1/U4/Z (CENX2)        0.24       2.25 f
+  data_block_instantiation/new_alu/f1/U3/Z (CEOX2)        0.25       2.50 f
+  data_block_instantiation/new_alu/f1/U2/Z (COND2X2)      0.14       2.64 r
+  data_block_instantiation/new_alu/f1/cout (full_adder_0)
+                                                          0.00       2.64 r
+  data_block_instantiation/new_alu/f2/cin (full_adder_7)
+                                                          0.00       2.64 r
+  data_block_instantiation/new_alu/f2/U5/Z (CIVX2)        0.12       2.76 f
+  data_block_instantiation/new_alu/f2/U2/Z (COND2X2)      0.15       2.91 r
+  data_block_instantiation/new_alu/f2/cout (full_adder_7)
+                                                          0.00       2.91 r
+  data_block_instantiation/new_alu/f3/cin (full_adder_6)
+                                                          0.00       2.91 r
+  data_block_instantiation/new_alu/f3/U5/Z (CIVX2)        0.12       3.03 f
+  data_block_instantiation/new_alu/f3/U2/Z (COND2X2)      0.13       3.16 r
+  data_block_instantiation/new_alu/f3/cout (full_adder_6)
+                                                          0.00       3.16 r
+  data_block_instantiation/new_alu/f4/cin (full_adder_5)
+                                                          0.00       3.16 r
+  data_block_instantiation/new_alu/f4/U5/Z (CIVX2)        0.12       3.27 f
+  data_block_instantiation/new_alu/f4/U2/Z (COND2X2)      0.13       3.40 r
+  data_block_instantiation/new_alu/f4/cout (full_adder_5)
+                                                          0.00       3.40 r
+  data_block_instantiation/new_alu/f5/cin (full_adder_4)
+                                                          0.00       3.40 r
+  data_block_instantiation/new_alu/f5/U5/Z (CIVX2)        0.12       3.52 f
+  data_block_instantiation/new_alu/f5/U2/Z (COND2X2)      0.16       3.68 r
+  data_block_instantiation/new_alu/f5/cout (full_adder_4)
+                                                          0.00       3.68 r
+  data_block_instantiation/new_alu/f6/cin (full_adder_3)
+                                                          0.00       3.68 r
+  data_block_instantiation/new_alu/f6/U6/Z (CIVX2)        0.11       3.79 f
+  data_block_instantiation/new_alu/f6/U2/Z (COND2X2)      0.17       3.96 r
+  data_block_instantiation/new_alu/f6/cout (full_adder_3)
+                                                          0.00       3.96 r
+  data_block_instantiation/new_alu/f7/cin (full_adder_2)
+                                                          0.00       3.96 r
+  data_block_instantiation/new_alu/f7/U7/Z (CIVX2)        0.09       4.05 f
+  data_block_instantiation/new_alu/f7/U6/Z (CEOXL)        0.41       4.45 f
+  data_block_instantiation/new_alu/f7/sum (full_adder_2)
+                                                          0.00       4.45 f
+  data_block_instantiation/new_alu/alu_out[6] (ALU)       0.00       4.45 f
+  data_block_instantiation/data_bus_tri5[6]/Z (CTSX2)     0.32       4.77 f
+  data_block_instantiation/data_bus[6] (data_block)       0.00       4.77 f
+  dat[6] (inout)                                          0.00       4.77 f
+  data arrival time                                                  4.77
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -4.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.03
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dat[5] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.48       0.48 f
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.48 f
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.48 f
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.48 f
+  controller_instant/U61/Z (CND2X2)                       0.10       0.57 r
+  controller_instant/U63/Z (CIVX2)                        0.07       0.64 f
+  controller_instant/U62/Z (CND2X2)                       0.07       0.71 r
+  controller_instant/U74/Z (CIVX2)                        0.07       0.78 f
+  controller_instant/U50/Z (CANR11X2)                     0.27       1.05 r
+  controller_instant/U19/Z (CNR2X2)                       0.11       1.16 f
+  controller_instant/U6/Z (CIVX2)                         0.12       1.28 r
+  controller_instant/U18/Z (CNR2IX2)                      0.14       1.42 f
+  controller_instant/crt_add_sel_b[0] (Controller)        0.00       1.42 f
+  data_block_instantiation/add_sel_b[0] (data_block)      0.00       1.42 f
+  data_block_instantiation/U5/Z (CAN2X1)                  0.24       1.66 f
+  data_block_instantiation/U41/Z (CANR2X2)                0.20       1.85 r
+  data_block_instantiation/U49/Z (CND2X2)                 0.16       2.02 f
+  data_block_instantiation/new_alu/b1[0] (ALU)            0.00       2.02 f
+  data_block_instantiation/new_alu/f1/inp2 (full_adder_0)
+                                                          0.00       2.02 f
+  data_block_instantiation/new_alu/f1/U4/Z (CENX2)        0.24       2.25 f
+  data_block_instantiation/new_alu/f1/U3/Z (CEOX2)        0.25       2.50 f
+  data_block_instantiation/new_alu/f1/U2/Z (COND2X2)      0.14       2.64 r
+  data_block_instantiation/new_alu/f1/cout (full_adder_0)
+                                                          0.00       2.64 r
+  data_block_instantiation/new_alu/f2/cin (full_adder_7)
+                                                          0.00       2.64 r
+  data_block_instantiation/new_alu/f2/U5/Z (CIVX2)        0.12       2.76 f
+  data_block_instantiation/new_alu/f2/U2/Z (COND2X2)      0.15       2.91 r
+  data_block_instantiation/new_alu/f2/cout (full_adder_7)
+                                                          0.00       2.91 r
+  data_block_instantiation/new_alu/f3/cin (full_adder_6)
+                                                          0.00       2.91 r
+  data_block_instantiation/new_alu/f3/U5/Z (CIVX2)        0.12       3.03 f
+  data_block_instantiation/new_alu/f3/U2/Z (COND2X2)      0.13       3.16 r
+  data_block_instantiation/new_alu/f3/cout (full_adder_6)
+                                                          0.00       3.16 r
+  data_block_instantiation/new_alu/f4/cin (full_adder_5)
+                                                          0.00       3.16 r
+  data_block_instantiation/new_alu/f4/U5/Z (CIVX2)        0.12       3.27 f
+  data_block_instantiation/new_alu/f4/U2/Z (COND2X2)      0.13       3.40 r
+  data_block_instantiation/new_alu/f4/cout (full_adder_5)
+                                                          0.00       3.40 r
+  data_block_instantiation/new_alu/f5/cin (full_adder_4)
+                                                          0.00       3.40 r
+  data_block_instantiation/new_alu/f5/U5/Z (CIVX2)        0.12       3.52 f
+  data_block_instantiation/new_alu/f5/U2/Z (COND2X2)      0.16       3.68 r
+  data_block_instantiation/new_alu/f5/cout (full_adder_4)
+                                                          0.00       3.68 r
+  data_block_instantiation/new_alu/f6/cin (full_adder_3)
+                                                          0.00       3.68 r
+  data_block_instantiation/new_alu/f6/U3/Z (CIVXL)        0.19       3.88 f
+  data_block_instantiation/new_alu/f6/U1/Z (CEOX1)        0.35       4.23 f
+  data_block_instantiation/new_alu/f6/sum (full_adder_3)
+                                                          0.00       4.23 f
+  data_block_instantiation/new_alu/alu_out[5] (ALU)       0.00       4.23 f
+  data_block_instantiation/data_bus_tri5[5]/Z (CTSX2)     0.32       4.55 f
+  data_block_instantiation/data_bus[5] (data_block)       0.00       4.55 f
+  dat[5] (inout)                                          0.00       4.55 f
+  data arrival time                                                  4.55
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -4.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.25
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dat[4] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.47       0.47 r
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.47 r
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.47 r
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.47 r
+  controller_instant/U61/Z (CND2X2)                       0.13       0.60 f
+  controller_instant/U63/Z (CIVX2)                        0.07       0.67 r
+  controller_instant/U62/Z (CND2X2)                       0.09       0.76 f
+  controller_instant/U74/Z (CIVX2)                        0.07       0.83 r
+  controller_instant/U50/Z (CANR11X2)                     0.13       0.96 f
+  controller_instant/U19/Z (CNR2X2)                       0.12       1.08 r
+  controller_instant/U6/Z (CIVX2)                         0.14       1.22 f
+  controller_instant/U18/Z (CNR2IX2)                      0.20       1.42 r
+  controller_instant/crt_add_sel_b[0] (Controller)        0.00       1.42 r
+  data_block_instantiation/add_sel_b[0] (data_block)      0.00       1.42 r
+  data_block_instantiation/U28/Z (CNR2X2)                 0.14       1.56 f
+  data_block_instantiation/U10/Z (CNIVXL)                 0.21       1.76 f
+  data_block_instantiation/U65/Z (CANR2XL)                0.31       2.07 r
+  data_block_instantiation/U22/Z (CND2X1)                 0.19       2.26 f
+  data_block_instantiation/new_alu/b1[2] (ALU)            0.00       2.26 f
+  data_block_instantiation/new_alu/f3/inp2 (full_adder_6)
+                                                          0.00       2.26 f
+  data_block_instantiation/new_alu/f3/U4/Z (CENX1)        0.26       2.52 r
+  data_block_instantiation/new_alu/f3/U3/Z (CEOX1)        0.43       2.95 r
+  data_block_instantiation/new_alu/f3/U2/Z (COND2X2)      0.22       3.17 f
+  data_block_instantiation/new_alu/f3/cout (full_adder_6)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/cin (full_adder_5)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/U5/Z (CIVX2)        0.08       3.25 r
+  data_block_instantiation/new_alu/f4/U2/Z (COND2X2)      0.13       3.38 f
+  data_block_instantiation/new_alu/f4/cout (full_adder_5)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/cin (full_adder_4)
+                                                          0.00       3.38 f
+  data_block_instantiation/new_alu/f5/U5/Z (CIVX2)        0.08       3.46 r
+  data_block_instantiation/new_alu/f5/U1/Z (CEOXL)        0.63       4.10 r
+  data_block_instantiation/new_alu/f5/sum (full_adder_4)
+                                                          0.00       4.10 r
+  data_block_instantiation/new_alu/alu_out[4] (ALU)       0.00       4.10 r
+  data_block_instantiation/data_bus_tri5[4]/Z (CTSX2)     0.41       4.51 r
+  data_block_instantiation/data_bus[4] (data_block)       0.00       4.51 r
+  dat[4] (inout)                                          0.00       4.51 r
+  data arrival time                                                  4.51
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -4.51
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.29
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dat[3] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.47       0.47 r
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.47 r
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.47 r
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.47 r
+  controller_instant/U61/Z (CND2X2)                       0.13       0.60 f
+  controller_instant/U63/Z (CIVX2)                        0.07       0.67 r
+  controller_instant/U62/Z (CND2X2)                       0.09       0.76 f
+  controller_instant/U74/Z (CIVX2)                        0.07       0.83 r
+  controller_instant/U50/Z (CANR11X2)                     0.13       0.96 f
+  controller_instant/U19/Z (CNR2X2)                       0.12       1.08 r
+  controller_instant/U6/Z (CIVX2)                         0.14       1.22 f
+  controller_instant/U18/Z (CNR2IX2)                      0.20       1.42 r
+  controller_instant/crt_add_sel_b[0] (Controller)        0.00       1.42 r
+  data_block_instantiation/add_sel_b[0] (data_block)      0.00       1.42 r
+  data_block_instantiation/U28/Z (CNR2X2)                 0.14       1.56 f
+  data_block_instantiation/U10/Z (CNIVXL)                 0.21       1.76 f
+  data_block_instantiation/U65/Z (CANR2XL)                0.31       2.07 r
+  data_block_instantiation/U22/Z (CND2X1)                 0.19       2.26 f
+  data_block_instantiation/new_alu/b1[2] (ALU)            0.00       2.26 f
+  data_block_instantiation/new_alu/f3/inp2 (full_adder_6)
+                                                          0.00       2.26 f
+  data_block_instantiation/new_alu/f3/U4/Z (CENX1)        0.26       2.52 r
+  data_block_instantiation/new_alu/f3/U3/Z (CEOX1)        0.43       2.95 r
+  data_block_instantiation/new_alu/f3/U2/Z (COND2X2)      0.22       3.17 f
+  data_block_instantiation/new_alu/f3/cout (full_adder_6)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/cin (full_adder_5)
+                                                          0.00       3.17 f
+  data_block_instantiation/new_alu/f4/U5/Z (CIVX2)        0.08       3.25 r
+  data_block_instantiation/new_alu/f4/U4/Z (CEOXL)        0.63       3.88 r
+  data_block_instantiation/new_alu/f4/sum (full_adder_5)
+                                                          0.00       3.88 r
+  data_block_instantiation/new_alu/alu_out[3] (ALU)       0.00       3.88 r
+  data_block_instantiation/data_bus_tri5[3]/Z (CTSX2)     0.43       4.31 r
+  data_block_instantiation/data_bus[3] (data_block)       0.00       4.31 r
+  dat[3] (inout)                                          0.00       4.31 r
+  data arrival time                                                  4.31
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -4.31
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.49
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dat[2] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.47       0.47 r
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.47 r
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.47 r
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.47 r
+  controller_instant/U61/Z (CND2X2)                       0.13       0.60 f
+  controller_instant/U63/Z (CIVX2)                        0.07       0.67 r
+  controller_instant/U62/Z (CND2X2)                       0.09       0.76 f
+  controller_instant/U74/Z (CIVX2)                        0.07       0.83 r
+  controller_instant/U50/Z (CANR11X2)                     0.13       0.96 f
+  controller_instant/U19/Z (CNR2X2)                       0.12       1.08 r
+  controller_instant/U6/Z (CIVX2)                         0.14       1.22 f
+  controller_instant/U13/Z (CNR2X1)                       0.23       1.45 r
+  controller_instant/crt_add_sel_a[0] (Controller)        0.00       1.45 r
+  data_block_instantiation/add_sel_a[0] (data_block)      0.00       1.45 r
+  data_block_instantiation/U7/Z (CIVX1)                   0.13       1.58 f
+  data_block_instantiation/U13/Z (CNR2X1)                 0.26       1.84 r
+  data_block_instantiation/U26/Z (CANR2X1)                0.24       2.08 f
+  data_block_instantiation/U4/Z (CND2X1)                  0.20       2.28 r
+  data_block_instantiation/new_alu/a1[0] (ALU)            0.00       2.28 r
+  data_block_instantiation/new_alu/f1/inp1 (full_adder_0)
+                                                          0.00       2.28 r
+  data_block_instantiation/new_alu/f1/U3/Z (CEOX2)        0.26       2.54 r
+  data_block_instantiation/new_alu/f1/U2/Z (COND2X2)      0.16       2.71 f
+  data_block_instantiation/new_alu/f1/cout (full_adder_0)
+                                                          0.00       2.71 f
+  data_block_instantiation/new_alu/f2/cin (full_adder_7)
+                                                          0.00       2.71 f
+  data_block_instantiation/new_alu/f2/U5/Z (CIVX2)        0.08       2.79 r
+  data_block_instantiation/new_alu/f2/U2/Z (COND2X2)      0.15       2.94 f
+  data_block_instantiation/new_alu/f2/cout (full_adder_7)
+                                                          0.00       2.94 f
+  data_block_instantiation/new_alu/f3/cin (full_adder_6)
+                                                          0.00       2.94 f
+  data_block_instantiation/new_alu/f3/U5/Z (CIVX2)        0.08       3.02 r
+  data_block_instantiation/new_alu/f3/U1/Z (CEOXL)        0.63       3.65 r
+  data_block_instantiation/new_alu/f3/sum (full_adder_6)
+                                                          0.00       3.65 r
+  data_block_instantiation/new_alu/alu_out[2] (ALU)       0.00       3.65 r
+  data_block_instantiation/data_bus_tri5[2]/Z (CTSX2)     0.43       4.09 r
+  data_block_instantiation/data_bus[2] (data_block)       0.00       4.09 r
+  dat[2] (inout)                                          0.00       4.09 r
+  data arrival time                                                  4.09
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -4.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.71
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dat[1] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.47       0.47 r
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.47 r
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.47 r
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.47 r
+  controller_instant/U61/Z (CND2X2)                       0.13       0.60 f
+  controller_instant/U63/Z (CIVX2)                        0.07       0.67 r
+  controller_instant/U62/Z (CND2X2)                       0.09       0.76 f
+  controller_instant/U74/Z (CIVX2)                        0.07       0.83 r
+  controller_instant/U50/Z (CANR11X2)                     0.13       0.96 f
+  controller_instant/U19/Z (CNR2X2)                       0.12       1.08 r
+  controller_instant/U6/Z (CIVX2)                         0.14       1.22 f
+  controller_instant/U13/Z (CNR2X1)                       0.23       1.45 r
+  controller_instant/crt_add_sel_a[0] (Controller)        0.00       1.45 r
+  data_block_instantiation/add_sel_a[0] (data_block)      0.00       1.45 r
+  data_block_instantiation/U7/Z (CIVX1)                   0.13       1.58 f
+  data_block_instantiation/U13/Z (CNR2X1)                 0.26       1.84 r
+  data_block_instantiation/U26/Z (CANR2X1)                0.24       2.08 f
+  data_block_instantiation/U4/Z (CND2X1)                  0.20       2.28 r
+  data_block_instantiation/new_alu/a1[0] (ALU)            0.00       2.28 r
+  data_block_instantiation/new_alu/f1/inp1 (full_adder_0)
+                                                          0.00       2.28 r
+  data_block_instantiation/new_alu/f1/U3/Z (CEOX2)        0.26       2.54 r
+  data_block_instantiation/new_alu/f1/U2/Z (COND2X2)      0.16       2.71 f
+  data_block_instantiation/new_alu/f1/cout (full_adder_0)
+                                                          0.00       2.71 f
+  data_block_instantiation/new_alu/f2/cin (full_adder_7)
+                                                          0.00       2.71 f
+  data_block_instantiation/new_alu/f2/U5/Z (CIVX2)        0.08       2.79 r
+  data_block_instantiation/new_alu/f2/U4/Z (CEOXL)        0.63       3.42 r
+  data_block_instantiation/new_alu/f2/sum (full_adder_7)
+                                                          0.00       3.42 r
+  data_block_instantiation/new_alu/alu_out[1] (ALU)       0.00       3.42 r
+  data_block_instantiation/data_bus_tri5[1]/Z (CTSX2)     0.43       3.86 r
+  data_block_instantiation/data_bus[1] (data_block)       0.00       3.86 r
+  dat[1] (inout)                                          0.00       3.86 r
+  data arrival time                                                  3.86
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -3.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.94
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dat[0] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[5]/Q (CFD1QX1)
+                                                          0.47       0.47 r
+  data_block_instantiation/Instruction_register/ir_2_bus[5] (IR_reg)
+                                                          0.00       0.47 r
+  data_block_instantiation/machine_code[5] (data_block)
+                                                          0.00       0.47 r
+  controller_instant/crt_machine_code[5] (Controller)     0.00       0.47 r
+  controller_instant/U61/Z (CND2X2)                       0.13       0.60 f
+  controller_instant/U63/Z (CIVX2)                        0.07       0.67 r
+  controller_instant/U62/Z (CND2X2)                       0.09       0.76 f
+  controller_instant/U74/Z (CIVX2)                        0.07       0.83 r
+  controller_instant/U50/Z (CANR11X2)                     0.13       0.96 f
+  controller_instant/U19/Z (CNR2X2)                       0.12       1.08 r
+  controller_instant/U6/Z (CIVX2)                         0.14       1.22 f
+  controller_instant/U13/Z (CNR2X1)                       0.23       1.45 r
+  controller_instant/crt_add_sel_a[0] (Controller)        0.00       1.45 r
+  data_block_instantiation/add_sel_a[0] (data_block)      0.00       1.45 r
+  data_block_instantiation/U7/Z (CIVX1)                   0.13       1.58 f
+  data_block_instantiation/U13/Z (CNR2X1)                 0.26       1.84 r
+  data_block_instantiation/U26/Z (CANR2X1)                0.24       2.08 f
+  data_block_instantiation/U4/Z (CND2X1)                  0.20       2.28 r
+  data_block_instantiation/new_alu/a1[0] (ALU)            0.00       2.28 r
+  data_block_instantiation/new_alu/f1/inp1 (full_adder_0)
+                                                          0.00       2.28 r
+  data_block_instantiation/new_alu/f1/U3/Z (CEOX2)        0.26       2.54 r
+  data_block_instantiation/new_alu/f1/U1/Z (CNIVXL)       0.23       2.77 r
+  data_block_instantiation/new_alu/f1/U5/Z (CEOXL)        0.62       3.39 r
+  data_block_instantiation/new_alu/f1/sum (full_adder_0)
+                                                          0.00       3.39 r
+  data_block_instantiation/new_alu/alu_out[0] (ALU)       0.00       3.39 r
+  data_block_instantiation/data_bus_tri5[0]/Z (CTSX2)     0.42       3.81 r
+  data_block_instantiation/data_bus[0] (data_block)       0.00       3.81 r
+  dat[0] (inout)                                          0.00       3.81 r
+  data arrival time                                                  3.81
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -3.81
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.99
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: addr[0] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[4]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[4]/Q (CFD1QX1)
+                                                          0.46       0.46 r
+  data_block_instantiation/Instruction_register/ir_2_bus[4] (IR_reg)
+                                                          0.00       0.46 r
+  data_block_instantiation/machine_code[4] (data_block)
+                                                          0.00       0.46 r
+  controller_instant/crt_machine_code[4] (Controller)     0.00       0.46 r
+  controller_instant/U20/Z (CIVX1)                        0.12       0.58 f
+  controller_instant/U22/Z (CNR2XL)                       0.23       0.81 r
+  controller_instant/U67/Z (CND3XL)                       0.29       1.11 f
+  controller_instant/U58/Z (CNR2X1)                       0.21       1.31 r
+  controller_instant/U73/Z (CIVX2)                        0.12       1.43 f
+  controller_instant/U34/Z (CND2X1)                       0.34       1.77 r
+  controller_instant/crt_ar_on_add (Controller)           0.00       1.77 r
+  data_block_instantiation/ar_on_add (data_block)         0.00       1.77 r
+  data_block_instantiation/address_bus_tri2[0]/Z (CTSX2)
+                                                          0.32       2.09 f
+  data_block_instantiation/address_bus[0] (data_block)
+                                                          0.00       2.09 f
+  addr[0] (out)                                           0.00       2.09 f
+  data arrival time                                                  2.09
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -2.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.71
+
+
+  Startpoint: data_block_instantiation/Instruction_register/ir_2_bus_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: addr[1] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[4]/CP (CFD1QX1)
+                                                          0.00       0.00 r
+  data_block_instantiation/Instruction_register/ir_2_bus_reg[4]/Q (CFD1QX1)
+                                                          0.46       0.46 r
+  data_block_instantiation/Instruction_register/ir_2_bus[4] (IR_reg)
+                                                          0.00       0.46 r
+  data_block_instantiation/machine_code[4] (data_block)
+                                                          0.00       0.46 r
+  controller_instant/crt_machine_code[4] (Controller)     0.00       0.46 r
+  controller_instant/U20/Z (CIVX1)                        0.12       0.58 f
+  controller_instant/U22/Z (CNR2XL)                       0.23       0.81 r
+  controller_instant/U67/Z (CND3XL)                       0.29       1.11 f
+  controller_instant/U58/Z (CNR2X1)                       0.21       1.31 r
+  controller_instant/U73/Z (CIVX2)                        0.12       1.43 f
+  controller_instant/U34/Z (CND2X1)                       0.34       1.77 r
+  controller_instant/crt_ar_on_add (Controller)           0.00       1.77 r
+  data_block_instantiation/ar_on_add (data_block)         0.00       1.77 r
+  data_block_instantiation/address_bus_tri2[1]/Z (CTSX2)
+                                                          0.32       2.09 f
+  data_block_instantiation/address_bus[1] (data_block)
+                                                          0.00       2.09 f
+  addr[1] (out)                                           0.00       2.09 f
+  data arrival time                                                  2.09
+
+  max_delay                                               4.80       4.80
+  output external delay                                   0.00       4.80
+  data required time                                                 4.80
+  --------------------------------------------------------------------------
+  data required time                                                 4.80
+  data arrival time                                                 -2.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.71
+
+
+1
+report_area
+ 
+****************************************
+Report : area
+Design : proccessor
+Version: C-2009.06-SP5
+Date   : Mon Dec  8 12:40:50 2014
+****************************************
+
+Library(s) Used:
+
+    tc240c (File: /apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25)
+
+Number of ports:               20
+Number of nets:                50
+Number of cells:                2
+Number of references:           2
+
+Combinational area:        513.000000
+Noncombinational area:     386.500000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:           899.500000
+Total area:                 undefined
+1
+report_power
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_BCCOM25'
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25'
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : proccessor
+Version: C-2009.06-SP5
+Date   : Mon Dec  8 12:40:52 2014
+****************************************
+
+
+Library(s) Used:
+
+    tc240c (File: /apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_WCCOM25)
+
+
+Operating Conditions: WCCOM25   Library: tc240c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 2.3  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = Unitless
+
+
+  Cell Internal Power  =   1.4158 mW   (92%)
+  Net Switching Power  = 130.8701 uW    (8%)
+                         ---------
+Total Dynamic Power    =   1.5467 mW  (100%)
+
+Cell Leakage Power     =   0.0000 
+
+1
+write -hierarchy -format verilog -output proccessor_gate­.v
+Writing verilog file '/home/ja/jain0423/Project/proccessor_gate­.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+1
+quit
+
+Thank you...
